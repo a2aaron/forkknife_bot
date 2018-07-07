@@ -7,10 +7,10 @@ import dotenv
 dotenv_path = join(dirname(__file__), '.env')
 dotenv.load_dotenv(dotenv_path)
 
-CONSUMER_KEY = os.environ.get("FORTNITE_CONSUMER_KEY")
-CONSUMER_SECRET = os.environ.get("FORTNITE_CONSUMER_SECRET")
-ACCESS_TOKEN = os.environ.get("FORTNITE_ACCESS_TOKEN")
-ACCESS_SECRET = os.environ.get("FORTNITE_ACCESS_SECRET")
+CONSUMER_KEY = os.environ.get("FORKKNIFE_CONSUMER_KEY")
+CONSUMER_SECRET = os.environ.get("FORKKNIFE_CONSUMER_SECRET")
+ACCESS_TOKEN = os.environ.get("FORKKNIFE_ACCESS_TOKEN")
+ACCESS_SECRET = os.environ.get("FORKKNIFE_ACCESS_SECRET")
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
